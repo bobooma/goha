@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "270873062703",
+    "firebase_url": "https://quotesbook-1ae2f-default-rtdb.firebaseio.com",
+    "project_id": "quotesbook-1ae2f",
+    "storage_bucket": "quotesbook-1ae2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:270873062703:android:7109264da77466dc2805da",
+        "android_client_info": {
+          "package_name": "com.DrHamaida.my_quotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "270873062703-4us6qb32fs4sn5dal8mgad5tpi1dr38b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjhMGpGCSox6xXBGagTBZz7TnAW3VOQjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "270873062703-4us6qb32fs4sn5dal8mgad5tpi1dr38b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

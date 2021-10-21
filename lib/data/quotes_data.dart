@@ -6,6 +6,7 @@ import 'package:my_quotes/models/quotes_model.dart';
 
 // ignore: constant_identifier_names
 const QUOTES_PATH = "quotes";
+late final String ahmed;
 
 //
 class QuotesData extends ChangeNotifier {
