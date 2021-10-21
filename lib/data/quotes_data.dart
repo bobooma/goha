@@ -40,5 +40,5 @@ class QuotesData extends ChangeNotifier {
 }
 
 class Myissue {
-  late final String me;
+  late final String ahmed;
 }
