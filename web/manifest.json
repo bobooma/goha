@@ -1,6 +1,6 @@
 {
-    "name": "my_quotes",
-    "short_name": "my_quotes",
+    "name": "Goha",
+    "short_name": "Goha",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

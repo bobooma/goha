@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "270873062703",
-    "firebase_url": "https://quotesbook-1ae2f-default-rtdb.firebaseio.com",
-    "project_id": "quotesbook-1ae2f",
-    "storage_bucket": "quotesbook-1ae2f.appspot.com"
+    "project_number": "23019615389",
+    "project_id": "goha-8ebbf",
+    "storage_bucket": "goha-8ebbf.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:270873062703:android:7109264da77466dc2805da",
+        "mobilesdk_app_id": "1:23019615389:android:4b6ce5861b9b27252f1074",
         "android_client_info": {
-          "package_name": "com.DrHamaida.my_quotes"
+          "package_name": "com.DrHamaida.Goha"
         }
       },
       "oauth_client": [
         {
-          "client_id": "270873062703-4us6qb32fs4sn5dal8mgad5tpi1dr38b.apps.googleusercontent.com",
+          "client_id": "23019615389-0r0bncsfrd84b1har7pdi5t2jr49hfhl.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDjhMGpGCSox6xXBGagTBZz7TnAW3VOQjU"
+          "current_key": "AIzaSyBcKHEh7iXMFCpHMqUyB7Aiek3ds_czTck"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "270873062703-4us6qb32fs4sn5dal8mgad5tpi1dr38b.apps.googleusercontent.com",
+              "client_id": "23019615389-0r0bncsfrd84b1har7pdi5t2jr49hfhl.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

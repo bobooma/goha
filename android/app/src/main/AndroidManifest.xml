@@ -1,9 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.DrHamaida.my_quotes">
+    package="com.DrHamaida.Goha">
    <application
-        android:label="my_quotes"
+        android:label="Goha"
         
         android:icon="@mipmap/ic_launcher"
+
+        android:requestLegacyExternalStorage="true"
      
 >
         

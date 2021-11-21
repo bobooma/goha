@@ -1,4 +1,4 @@
-package com.DrHamaida.my_quotes
+package com.DrHamaida.Goha
 
 import io.flutter.embedding.android.FlutterActivity
 
