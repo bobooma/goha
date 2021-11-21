@@ -100,51 +100,54 @@ class MyHomePage extends StatelessWidget {
                     return ListView.builder(
                       itemCount: snapshot.data.docs.length,
                       itemBuilder: (BuildContext context, int index) {
-                        return InkWell(
-                          onTap: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => QuoteImage(
-                                    imgUrl: snapshot.data.docs[index]
-                                        ["imgUrl"]),
-                              ),
-                            );
-                          },
-                          child: SizedBox(
-                            width: MediaQuery.of(context).size.width,
-                            height: 200,
-                            child: Stack(children: [
-                              MyCard(
-                                madeIn: snapshot.data.docs[index]["madeIn"],
-                                prod: snapshot.data.docs[index]["prodName"],
-                                price: snapshot.data.docs[index]["price"],
-                                materials: snapshot.data.docs[index]
-                                    ["materials"],
-                                availability: snapshot.data.docs[index]
-                                    ["availability"],
-                                durationOfDiscount: snapshot.data.docs[index]
-                                    ["durationOfDiscount"],
-                                priceAfterDiscount: snapshot.data.docs[index]
-                                    ["priceAfterDiscount"],
-                              ),
-                              Positioned(
-                                top: -5,
-                                child: Container(
-                                  height: 200,
-                                  width: 200,
-                                  decoration: BoxDecoration(
-                                    boxShadow: const [BoxShadow(blurRadius: 2)],
-                                    shape: BoxShape.circle,
-                                    image: DecorationImage(
-                                      fit: BoxFit.cover,
-                                      image: NetworkImage(
-                                          snapshot.data.docs[index]["imgUrl"]),
+                        return Dismissible(key: ,
+                          onDismissed: ,
+                          child: InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => ProdImage(
+                                      imgUrl: snapshot.data.docs[index]
+                                          ["imgUrl"]),
+                                ),
+                              );
+                            },
+                            child: SizedBox(
+                              width: MediaQuery.of(context).size.width,
+                              height: 200,
+                              child: Stack(children: [
+                                MyCard(
+                                  madeIn: snapshot.data.docs[index]["madeIn"],
+                                  prod: snapshot.data.docs[index]["prodName"],
+                                  price: snapshot.data.docs[index]["price"],
+                                  materials: snapshot.data.docs[index]
+                                      ["materials"],
+                                  availability: snapshot.data.docs[index]
+                                      ["availability"],
+                                  durationOfDiscount: snapshot.data.docs[index]
+                                      ["durationOfDiscount"],
+                                  priceAfterDiscount: snapshot.data.docs[index]
+                                      ["priceAfterDiscount"],
+                                ),
+                                Positioned(
+                                  top: -5,
+                                  child: Container(
+                                    height: 200,
+                                    width: 200,
+                                    decoration: BoxDecoration(
+                                      boxShadow: const [BoxShadow(blurRadius: 2)],
+                                      shape: BoxShape.circle,
+                                      image: DecorationImage(
+                                        fit: BoxFit.cover,
+                                        image: NetworkImage(
+                                            snapshot.data.docs[index]["imgUrl"]),
+                                      ),
                                     ),
                                   ),
                                 ),
-                              ),
-                            ]),
+                              ]),
+                            ),
                           ),
                         );
                       },

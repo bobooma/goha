@@ -4,7 +4,7 @@ import 'package:flutter_phone_direct_caller/flutter_phone_direct_caller.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ProdImage extends StatefulWidget {
-  ProdImage({
+  const ProdImage({
     Key? key,
     required this.imgUrl,
   }) : super(key: key);
@@ -15,22 +15,7 @@ class ProdImage extends StatefulWidget {
   State<ProdImage> createState() => _ProdImageState();
 }
 
-class _ProdImageState extends State<ProdImage>
-    with SingleTickerProviderStateMixin {
-  AnimationController? controller;
-  @override
-  void initState() {
-    controller =
-        AnimationController(vsync: this, duration: Duration(seconds: 1));
-
-    controller!.forward();
-    controller.addListener(() {
-      
-    })
-    
-    super.initState();
-  }
-
+class _ProdImageState extends State<ProdImage> {
   @override
   Widget build(BuildContext context) {
     const phoneNum = "201208272300";
